@@ -18,11 +18,11 @@ Cosine Similarity Analysis:
 Here comes the magic! I computed cosine similarity scores between job descriptions and resumes to determine how well they match.
 The top 5 resumes with the highest cosine similarity scores were selected as the most suitable candidates for each job.
 
-Methodology
-PDF extraction with PyPDF2 or PDFMiner.
-Text tokenization and embedding using DistilBERT from Hugging Face.
-Cosine similarity calculation for candidate-job matching.
+Methodology:
+1. PDF extraction with PyPDF2 or PDFMiner.
+2. Text tokenization and embedding using DistilBERT from Hugging Face.
+3. Cosine similarity calculation for candidate-job matching.
 
-Contact
+Contact:
 arpanghosh5115@gmail.com
 
