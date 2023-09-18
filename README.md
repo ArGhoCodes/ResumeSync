@@ -18,9 +18,10 @@ Cosine Similarity Analysis:
 Here comes the magic! I computed cosine similarity scores between job descriptions and resumes to determine how well they match.
 The top 5 resumes with the highest cosine similarity scores were selected as the most suitable candidates for each job.
 
-Data Sources
-Kaggle Resume Dataset (link)
-Hugging Face Job Descriptions Dataset (link)
+Methodology
+PDF extraction with PyPDF2 or PDFMiner.
+Text tokenization and embedding using DistilBERT from Hugging Face.
+Cosine similarity calculation for candidate-job matching.
 
 Contact
 arpanghosh5115@gmail.com
